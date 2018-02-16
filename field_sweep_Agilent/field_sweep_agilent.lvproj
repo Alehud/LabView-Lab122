@@ -451,7 +451,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/LAB_SPT/Desktop</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D841A9E-6370-4B49-9283-7C4F321D4742}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Field Sweep Agilent.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/LAB_SPT/Desktop/Field Sweep Agilent.exe</Property>
