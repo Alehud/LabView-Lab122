@@ -422,6 +422,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
+			<Item Name="average.vi" Type="VI" URL="../../SubVIs/average.vi"/>
 			<Item Name="change_status.vi" Type="VI" URL="../../SubVIs/change_status.vi"/>
 			<Item Name="create_file_path.vi" Type="VI" URL="../SubVIs/create_file_path.vi"/>
 			<Item Name="disable.vi" Type="VI" URL="../../SubVIs/disable.vi"/>
@@ -450,7 +451,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/LAB_SPT/Desktop</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D841A9E-6370-4B49-9283-7C4F321D4742}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Field Sweep Agilent.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/LAB_SPT/Desktop/Field Sweep Agilent.exe</Property>
