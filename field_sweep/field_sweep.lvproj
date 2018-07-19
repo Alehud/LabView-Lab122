@@ -22,6 +22,7 @@
 		<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Lake Shore 336.lvlib" Type="Library" URL="/&lt;instrlib&gt;/LakeShore 336/Lake Shore 336.lvlib"/>
 				<Item Name="LSCI 475 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/LakeShore 475/lsci475.llb/LSCI 475 Close.vi"/>
 				<Item Name="LSCI 475 Config Instrument.vi" Type="VI" URL="/&lt;instrlib&gt;/LakeShore 475/lsci475.llb/LSCI 475 Config Instrument.vi"/>
 				<Item Name="LSCI 475 Config Max and Relative.vi" Type="VI" URL="/&lt;instrlib&gt;/LakeShore 475/lsci475.llb/LSCI 475 Config Max and Relative.vi"/>
@@ -267,6 +268,7 @@
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -409,6 +411,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -434,7 +437,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
+			<Item Name="average.vi" Type="VI" URL="../../SubVIs/average.vi"/>
 			<Item Name="change_status.vi" Type="VI" URL="../../SubVIs/change_status.vi"/>
+			<Item Name="create_file_path.vi" Type="VI" URL="../../field_sweep_Agilent/SubVIs/create_file_path.vi"/>
 			<Item Name="disable.vi" Type="VI" URL="../../SubVIs/disable.vi"/>
 			<Item Name="enable.vi" Type="VI" URL="../../SubVIs/enable.vi"/>
 			<Item Name="field_to_voltage_convert.vi" Type="VI" URL="../../SubVIs/field_to_voltage_convert.vi"/>
@@ -465,7 +470,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/LAB_SPT/Desktop</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{36A8A65B-DFA0-415B-BEDD-3CD76E7B5F69}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Field Sweep.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/LAB_SPT/Desktop/Field Sweep.exe</Property>
